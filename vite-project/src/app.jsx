@@ -1,28 +1,19 @@
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
 
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Contact from "./pages/Contact"
-import LoginPage from "./pages/LoginPage"
-import Dashboard from "./pages/Dashboard"
-import NotFound from "./pages/NotFound"
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Install";
+import LoginPage from "./pages/LoginPage";
+import Dashboard from "./pages/Dashboard";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <div>
-      <nav>
-        <Link className="navlink1" to="/" end>Forside</Link>
-        <Link className="navlink1" to="/about">Om os</Link>
-        <Link className="navlink1" to="/contact">Kontakt</Link>
-        <Link className="navlink1" to="/login">Login</Link>
-        <Link className="navlink1" to="/dashboard">Dashboard</Link>
-        <> |</>
-      </nav>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="install-guide" element={<Contact />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<NotFound />} />
