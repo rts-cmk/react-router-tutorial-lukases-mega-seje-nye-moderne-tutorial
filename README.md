@@ -1,4 +1,4 @@
-[Link til guide](lukuv-react-routes-guide.netlify.app)
+[Link til guide](https://lukuv-react-routes-guide.netlify.app)
 
 # Opgave: Lav en tutorial om React Router
 
