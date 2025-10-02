@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Install";
 import LoginPage from "./pages/LoginPage";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/DashBoard";
 import NotFound from "./pages/NotFound";
 
 function App() {
