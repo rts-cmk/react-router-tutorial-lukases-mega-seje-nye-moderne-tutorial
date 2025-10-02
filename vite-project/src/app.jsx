@@ -1,11 +1,11 @@
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Install";
-import LoginPage from "./pages/LoginPage";
-import Dashboard from "./pages/Dashboard";
-import NotFound from "./pages/NotFound";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Contact from "./pages/Install.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 function App() {
   return (
